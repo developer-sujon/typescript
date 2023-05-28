@@ -1,0 +1,16 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.ts",
+    "start:dev": "nodemon ./src/index.ts",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
